@@ -23,6 +23,5 @@ public class Application {
         ccc.print();
 
 
-        
     }
 }
