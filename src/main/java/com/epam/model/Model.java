@@ -4,9 +4,9 @@ public interface Model {
 
     void printSquare();
 
-    void printSqureWithDiagonal();
+    void printSquareWithDiagonal1();
 
-    void printSqureWithDiagona2();
+    void printSquareWithDiagonal2();
 
     void printTriangle1();
 
@@ -17,5 +17,5 @@ public interface Model {
     void printTriangle4();
 
     void printChessBoard();
-    
+
 }
