@@ -12,34 +12,42 @@ public class BusinessLogic implements Model {
         chessBoard = new ChessBoard(size);
     }
 
+    @Override
     public void printSquare() {
         square.print();
     }
 
+    @Override
     public void printSquareWithDiagonal1() {
         square.printWithDiagonal1();
     }
 
+    @Override
     public void printSquareWithDiagonal2() {
         square.printWithDiagonal2();
     }
 
+    @Override
     public void printTriangle1() {
         triangle.print1();
     }
 
+    @Override
     public void printTriangle2() {
         triangle.print2();
     }
 
+    @Override
     public void printTriangle3() {
         triangle.print3();
     }
 
+    @Override
     public void printTriangle4() {
         triangle.print4();
     }
 
+    @Override
     public void printChessBoard() {
         chessBoard.print();
     }
