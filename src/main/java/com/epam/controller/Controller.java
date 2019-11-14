@@ -17,5 +17,4 @@ public interface Controller {
 
     void printChessBoard();
 
-    int asd();
 }
