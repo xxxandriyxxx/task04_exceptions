@@ -1,5 +1,6 @@
 package com.epam;
 
+import com.epam.model.ChessBoard;
 import com.epam.model.Square;
 import com.epam.model.Triangle;
 
@@ -17,6 +18,9 @@ public class Application {
         ttt.print2();
         ttt.print3();
         ttt.print4();
+
+        ChessBoard ccc = new ChessBoard(20);
+        ccc.print();
 
 
     }
