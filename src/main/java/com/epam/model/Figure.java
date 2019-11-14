@@ -1,7 +1,11 @@
 package com.epam.model;
 
 public abstract class Figure {
-    private int size;
+    int size;
+
+    public Figure(int size) {
+        this.size = size;
+    }
 
     public int getSize() {
         return size;
