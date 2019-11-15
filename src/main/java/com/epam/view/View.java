@@ -6,7 +6,7 @@ import com.epam.controller.ControllerImpl;
 import java.util.Scanner;
 
 public class View {
-    
+
     public void show() {
         Controller controller;
         Scanner scan = new Scanner(System.in);
