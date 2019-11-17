@@ -51,4 +51,9 @@ public class ControllerImpl implements Controller {
         model.printChessBoard();
     }
 
+    @Override
+    public void printInstruction() {
+        model.printInstruction();
+    }
+
 }

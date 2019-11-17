@@ -1,6 +1,7 @@
 package com.epam.controller;
 
 public interface Controller {
+
     void printSquare();
 
     void printSquareWithDiagonal1();
@@ -16,5 +17,7 @@ public interface Controller {
     void printTriangle4();
 
     void printChessBoard();
+
+    void printInstruction();
 
 }
