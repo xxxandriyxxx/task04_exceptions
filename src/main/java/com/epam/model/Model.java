@@ -18,4 +18,6 @@ public interface Model {
 
     void printChessBoard();
 
+    void printInstruction();
+
 }

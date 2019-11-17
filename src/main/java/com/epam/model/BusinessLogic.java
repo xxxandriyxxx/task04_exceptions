@@ -52,4 +52,11 @@ public class BusinessLogic implements Model {
         chessBoard.print();
     }
 
+    @Override
+    public void printInstruction() {
+        try (Instruction instruction = new Instruction()) {
+            instruction.printInstruction();
+        }
+    }
+
 }
