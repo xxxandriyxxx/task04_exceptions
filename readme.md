@@ -8,8 +8,8 @@ This program prints various figures selected by the user in the console.
 
 #### Exceptions
 
-1. IOException - throws when we try to get an instruction file that doesn't exist.
+1. IOException - is thrown when we try to get an instruction file that doesn't exist.
 This exception is handled by the Instruction class, that implements AutoCloseable interface.
 
 2. MyNumberFormatException - custom exception class, that extends NumberFormatException.
-Throws when user enters letters instead of numbers - a menu item, and we can't parse it to int type.
+Is thrown when user enters letters instead of numbers - a menu item, and we can't parse it to int type.
